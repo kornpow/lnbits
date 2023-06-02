@@ -490,8 +490,8 @@ def update_cached_settings(sets_dict: dict):
         if key not in readonly_variables:
             try:
                 setattr(settings, key, value)
-            except:
-                logger.warning(f"Failed overriding setting: {key}, value: {value}")
+            except Exception as e:
+                logger.warning(f"Failed overriding setting: {e} {key}, value: {value}")
     if "super_user" in sets_dict:
         setattr(settings, "super_user", sets_dict["super_user"])
 

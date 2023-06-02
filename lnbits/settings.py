@@ -254,16 +254,16 @@ class PersistenceSettings(LNbitsSettings):
 class SuperUserSettings(LNbitsSettings):
     lnbits_allowed_funding_sources: List[str] = Field(
         default=[
-            "VoidWallet",
-            "FakeWallet",
-            "CoreLightningWallet",
-            "LndRestWallet",
-            "EclairWallet",
-            "LndWallet",
-            "LnTipsWallet",
-            "LNPayWallet",
-            "LNbitsWallet",
-            "OpenNodeWallet",
+            # "VoidWallet",
+            # "FakeWallet",
+            # "CoreLightningWallet",
+            # "LndRestWallet",
+            # "EclairWallet",
+            # "LndWallet",
+            # "LnTipsWallet",
+            # "LNPayWallet",
+            # "LNbitsWallet",
+            # "OpenNodeWallet",
         ]
     )
 
