@@ -257,7 +257,7 @@ class SuperUserSettings(LNbitsSettings):
             "VoidWallet",
             # "FakeWallet",
             # "CoreLightningWallet",
-            "LndRestWallet",
+            # "LndRestWallet",
             # "EclairWallet",
             # "LndWallet",
             # "LnTipsWallet",
